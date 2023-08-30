@@ -2,7 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(9000, {
     cors: {
-        origin: 'https://verdant-croissant-c7605f.netlify.app/',
+        origin: 'https://verdant-croissant-c7605f.netlify.app',
     }, 
 })
 
