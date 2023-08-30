@@ -16,7 +16,7 @@ const AccountProvider = ({children}) => {
     const socket = useRef();
 
     useEffect(() => {
-        socket.current = io('ws://localhost:9000');
+        socket.current = io('ws:https://socket-backend-2c3n.onrender.com');
     }, [])
 
     return (
